@@ -1,0 +1,27 @@
+package february_week_one_coding_challenges;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Challenges {
+	
+	public static <E> List<E> filterArray(List<E> arrayToFilter) {	//method for coding challenge number one. Filter array so only ints remain. Maintain order
+			
+		ArrayList<E> filteredArray = new ArrayList<>(); 
+		
+		for (E e : arrayToFilter) {
+			
+			if(int.class == e.getClass()) {
+				
+				filteredArray.add(e);
+				
+			}
+			
+		}
+		
+		return filteredArray; 
+		
+	}
+	
+
+}
