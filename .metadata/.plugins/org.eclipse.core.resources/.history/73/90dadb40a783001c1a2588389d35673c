@@ -17,7 +17,6 @@ public class Application {
 		ArrayList<Object> filteredArray = (ArrayList<Object>) Challenges.filterArray(arrayToTest);
 		System.out.println(filteredArray);
 		
-		System.out.println(Challenges.multiplyBy11("12345"));
 		
 
 	}
